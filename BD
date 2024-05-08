@@ -1,0 +1,22 @@
+CREATE DATABASE call_center;
+-- Creación de la tabla 'product'
+USE call_center;
+CREATE TABLE product (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    description TEXT,
+    price DECIMAL(10, 2) NOT NULL
+);
+
+
+-- Creación de la tabla 'promotion'
+CREATE TABLE promotion (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    product_id INT,
+    title VARCHAR(100) NOT NULL,
+    description TEXT,
+    discount DECIMAL(5, 2) NOT NULL,
+    start_date DATE,
+    end_date DATE,
+    FOREIGN KEY (product_id) REFERENCES product(id) ON DELETE CASCADE
+);
