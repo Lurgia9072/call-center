@@ -1,0 +1,16 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Œä”ûÿÿÿÿ8²Œ‰Àõ1
+o
+java:S1128"RRemove this unused import 'org.springframework.data.jpa.repository.JpaRepository'.(À™‡“8Œ–±Áõ1
+p
+java:S1128"NRemove this unused import 'org.springframework.data.jpa.repository.Modifying'.(—·Ñ”şÿÿÿÿ8¼’¸Áõ1
+l
+java:S1128"JRemove this unused import 'org.springframework.data.jpa.repository.Query'.(Äºöïşÿÿÿÿ8Ä’¸Áõ1
+i
+java:S1128"LRemove this unused import 'org.springframework.data.repository.query.Param'.(©”šô8Ä’¸Áõ1
+h
+java:S1128"FRemove this unused import 'org.springframework.stereotype.Repository'.(¦ıÍıüÿÿÿÿ8Ñæ²Áõ1
+w
+java:S1128	"URemove this unused import 'org.springframework.transaction.annotation.Transactional'.(ğùçøùÿÿÿÿ8Ä’¸Áõ1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8÷Ë´Áõ1
